@@ -1,0 +1,12 @@
+                                Table "public.shops"
+  Column   |  Type   | Collation | Nullable |                Default                 
+-----------+---------+-----------+----------+----------------------------------------
+ shop_id   | integer |           | not null | nextval('shops_shop_id_seq'::regclass)
+ shop_name | text    |           | not null | 
+ owner     | text    |           | not null | 
+ slogan    | text    |           |          | 
+Indexes:
+    "shops_pkey" PRIMARY KEY, btree (shop_id)
+Referenced by:
+    TABLE "treasures" CONSTRAINT "treasures_shop_id_fkey" FOREIGN KEY (shop_id) REFERENCES shops(shop_id) ON DELETE CASCADE
+

@@ -1,0 +1,33 @@
+{
+  "name": "mitchs-rare-treasures",
+  "version": "1.0.0",
+  "description": "Mitch has gone into business!",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.6.0",
+    "express": "^4.18.2",
+    "faker": "^4.1.0",
+    "lodash": "^4.17.15",
+    "lodash.random": "^3.2.0",
+    "pg": "^8.0.3"
+  },
+  "scripts": {
+    "setup-dbs": "psql -f db/setup.sql",
+    "seed": "node ./db/run-seed.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.6.3",
+    "jest-sorted": "^1.0.14",
+    "pg-format": "^1.0.4",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "setupFilesAfterEnv": [
+      "jest-sorted"
+    ]
+  }
+}

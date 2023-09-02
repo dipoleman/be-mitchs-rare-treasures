@@ -1,0 +1,28 @@
+ shop_id |          shop_name           |  owner  |                  slogan                  
+---------+------------------------------+---------+------------------------------------------
+       1 | Dibbert Inc                  | Aaliyah | Implemented motivating customer loyalty
+       2 | Feeney Inc                   | Elta    | Function-based intermediate secured line
+       3 | Kshlerin, Koch and Monahan   | Daphney | Persevering web-enabled hardware
+       4 | Botsford - Dickens           | Maynard | Multi-channelled high-level open system
+       5 | Tremblay - Oberbrunner       | Litzy   | Public-key systematic paradigm
+       6 | Gislason LLC                 | Zion    | Phased motivating solution
+       7 | Kilback Group                | Alyson  | Down-sized 5th generation firmware
+       8 | Beahan LLC                   | Bertha  | Compatible 5th generation algorithm
+       9 | Conn, Grimes and Hansen      | Shayna  | Ergonomic secondary focus group
+      10 | Bednar, Jacobs and McDermott | Shayna  | Upgradable 6th generation paradigm
+(10 rows)
+
+ treasure_id |             treasure_name             |  colour   | age | cost_at_auction | shop_id 
+-------------+---------------------------------------+-----------+-----+-----------------+---------
+           1 | Implemented Sleek Steel Computer      | blue      | 195 |          835.06 |      87
+           2 | Up-sized Awesome Soft Pizza           | turquoise |  47 |          221.70 |      32
+           3 | Pre-emptive Licensed Frozen Bacon     | azure     | 249 |          380.50 |     779
+           4 | Stand-alone Incredible Metal Fish     | green     | 544 |          824.64 |     289
+           5 | Phased Refined Wooden Towels          | plum      | 816 |          152.27 |     241
+           6 | Reactive Small Rubber Gloves          | green     |  63 |          467.98 |     783
+           7 | Expanded Handcrafted Granite Shoes    | orchid    | 832 |          716.49 |     239
+           8 | Optimized Sleek Frozen Pants          | white     |  15 |          399.39 |     533
+           9 | Team-oriented Practical Granite Salad | indigo    |  82 |          644.81 |     398
+          10 | Organic Fantastic Concrete Computer   | lime      | 898 |           36.47 |     151
+(10 rows)
+
